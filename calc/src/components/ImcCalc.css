@@ -34,3 +34,17 @@
     gap: 1rem;
     margin-top: 2rem;
 }
+
+
+@media (max-width: 480px) {
+  #calc-container {
+    padding: .8rem;
+  }
+  #calc-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .form-control input {
+    font-size: .9rem;
+  }
+}

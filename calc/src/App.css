@@ -6,4 +6,19 @@
     border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 4rem;
+    min-width: 200px;
+    min-height: 200px;
+  }
+}
+
+
                                                                                                                                                                                                                                                                                                                                             

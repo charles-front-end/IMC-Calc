@@ -8,7 +8,7 @@ const ImcCalc = ({ calcImc }) => {
   const [weight, setWeight] = useState("");
 
   const clearForm = (e) => {
-    e.preventDefaul();
+    e.preventDefault();
     setWeight("");
     setHeight("");
   };
@@ -45,6 +45,7 @@ const ImcCalc = ({ calcImc }) => {
               required
               onChange={(e) => handleHeightChange(e)}
               value={height}
+              autoComplete="off"
             />
           </div>
           <div className="form-control">
@@ -58,6 +59,7 @@ const ImcCalc = ({ calcImc }) => {
               required
               onChange={(e) => handleWeightChange(e)}
               value={weight}
+              autoComplete="off"
             />
           </div>
         </div>

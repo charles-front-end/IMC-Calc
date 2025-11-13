@@ -23,7 +23,7 @@ function App() {
         setInfoClass(item.infoClass);
       }
     });
-    if (!info) return;
+   if (!info) return; 
   };
 
   const resetCalc = (e) => {
